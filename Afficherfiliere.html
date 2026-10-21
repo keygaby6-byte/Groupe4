@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher filieres</title>
+    <link rel="stylesheet" href="Afficherfiliere.css">
+</head>
+<body>
+      
+    <section id="list-content" class="list-section" hidden>
+            <div class="list-header">
+                <h2>Filières enregistrées</h2>
+                <span id="record-count">0 filière</span>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Nom</th>
+                            <th>Responsable</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="filiere-list"></tbody>
+                </table>
+            </div>
+
+            <p id="empty-state">Aucune filière enregistrée.</p>
+        </section>
+
+          <script src="formfiliere.js"></script>
+
+</body>
+</html>

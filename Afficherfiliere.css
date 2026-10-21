@@ -1,0 +1,70 @@
+.list-section {
+    margin-top: 28px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.list-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#record-count {
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    padding: 5px 10px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.96);
+    color: #1f2937;
+}
+
+th, td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    background: #eff6ff;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+}
+
+tbody tr.is-selected {
+    background: #dbeafe;
+}
+
+#empty-state {
+    margin: 16px 0 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[hidden] {
+    display: none !important;
+}
+
